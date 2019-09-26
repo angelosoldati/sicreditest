@@ -29,6 +29,7 @@ E: o tempo de aplicação seja de 1 mês
 Quando: eu efetuar uma simulação
 Então: devo visualizar o valor que terei guardado nesse periodo
 E: uma lista com tempo em meses e valor de rendimento projetado
+
 --------------------------------------------------------------------------------------------
 
 -------------------------------------------------------------------------------------------
@@ -41,6 +42,7 @@ E: no valor poupado é digitado texto
 E: no tempo de aplicação é digitado texto
 Quando: eu efetuar uma simulação
 Então: o sistema deve criticar os campos de preenchimento obrigatório
+
 --------------------------------------------------------------------------------------------
 
 -------------------------------------------------------------------------------------------
@@ -53,6 +55,7 @@ E: o valor poupado é inferior há R$20,00
 Quando: eu efetuar uma simulação
 Então: o sistema deve criticar que o valor mínimo de aplicação é de R$20,00 reais
 E: criticar que o valor mínimo poupado é de R$20,00 reais
+
 --------------------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------------------
